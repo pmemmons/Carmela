@@ -4,11 +4,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #fff;
-    font-size: 36px;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -23,9 +18,24 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.message-box h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+.message-box p {
+    color: #333;
+    font-size: 18px;
+}
+
+.message-box a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.message-box a:hover {
+    background-color: #0056b3;
 }
