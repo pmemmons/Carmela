@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, #ff9ff3, #a0e9ff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
